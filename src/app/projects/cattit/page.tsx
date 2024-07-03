@@ -1,5 +1,7 @@
 import Footer from "@/components/Footer";
 import NavigationBar from "@/components/NavBar"
+import Project from "@/components/Project";
+import { useState } from "react";
 
 export default function Page(){
   return (
@@ -9,8 +11,9 @@ export default function Page(){
 
           <div className="w-4/5 md:w-2/3">
           <NavigationBar />
-            <div className="justify-center"> 
-                Here are some things I do in my free time! 
+            <div className="justify-center">
+
+                TBD
 
             </div>
           </div>

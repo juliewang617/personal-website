@@ -18,6 +18,14 @@ const config: Config = {
       backgroundImage: {
         'background': "url('/cats1.png')",
         'background_me': "url('/me.jpg')", 
+        'github_logo': "url('/github.svg')",
+        'linkedin_logo': "url('/linkedin.png')",
+        'email_logo': "url('/email.png')",
+        'aliens_td_thumbnail': "url('/aliens-td/thumbnail.png')",
+        'carpool_thumbnail': "url('/carpool/thumbnail.png')",
+        'cattit_thumbnail': "url('/cattit/thumbnail.png')",
+        'connect4_thumbnail': "url('/connect4/thumbnail.png')",
+        'ez_ed_thumbnail': "url('/ez-ed/thumbnail.png')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
       boxShadow: {

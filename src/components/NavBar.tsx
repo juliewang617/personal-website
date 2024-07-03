@@ -28,7 +28,7 @@ export default function NavBar() {
         <Link href="/fun" className={isActive("/fun") + " hover:bg-blue1"}>
             Fun
         </Link>
-        <Link href="https://docs.google.com/document/d/e/2PACX-1vQIykasWoKeIvDdHKOdhb_pvejH-6eQvIsHnRaqHCGC2o-BWvUpXxbkpfeZrv0rEQ/pub" 
+        <Link href="https://drive.google.com/file/d/1MN14Zd6YfQrrObuCb35UDeV41uScSnEA/view?usp=sharing" 
         target="_blank"
         className={isActive("/resume") + " hover:bg-blue1"}>
             Resume
