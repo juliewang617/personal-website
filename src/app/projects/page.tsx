@@ -57,7 +57,7 @@ export default function Page(){
               page="/projects/connect4"
               link="https://github.com/juliewang617/Connect4-with-AI-Player"
               desc="Connect4 web game created with Flask and Python. Includes an 
-              AI player that utilizes with minimax algorithm with alpha-beta 
+              AI player that utilizes the minimax algorithm with alpha-beta 
               pruning to calculate moves."/> 
 
               <Project 
