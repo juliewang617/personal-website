@@ -22,6 +22,16 @@ export default function Page(){
     ["/artwork/6.jpg", ""],
   ]
 
+  const sceneryImages : Array<[string, string]> = [
+    ["/scenery/1.png", "Cape Cod, Massachusetts"],
+    ["/scenery/2.jpg", "Outside a Whole Foods"],
+    ["/scenery/3.jpg", "Miami, Florida"],
+    ["/scenery/4.jpg", "Brown University, Providence, Rhode Island"],
+    ["/scenery/5.jpg", "Malmo, Sweden"],
+    ["/scenery/6.jpg", "Lund, Sweden"],
+    ["/scenery/7.jpg", "Helsingborg, Sweden"],
+  ]
+
   return (
       <div className="flex flex-col w-screen h-full justify-center bg-gradient-radial from-blue0 to-offwhite">
 
@@ -57,8 +67,8 @@ export default function Page(){
             <div className="w-full h-full flex flex-col py-3">
             <div className="margin-auto flex flex-col text-center justify-center mb-5">
                 <b className="text-blue3 mb-2">Artwork</b>
-                <p className="text-blue2">I've been drawing and painting since 
-                  I was five. I'm experienced with many mediums, from watercolor 
+                <p className="text-blue2">I&apos;ve been drawing and painting since 
+                  I was five. I&apos;m experienced with many mediums, from watercolor 
                   to acrylic to pencil to digital art. I especially love working 
                   with color! As you can tell, I really love to portray cats. 
                 </p>
@@ -76,11 +86,11 @@ export default function Page(){
             <div className="margin-auto flex flex-col text-center justify-center mb-5">
                 <b className="text-blue3 mb-2">Travels</b>
                 <p className="text-blue2">Here is a collection of pretty pictures
-                  I've taken outside. 
+                  I&apos;ve taken outside. 
                 </p>
               </div>
               <div className="flex flex-row mb-24 overflow-scroll">
-                {artworkImages.map((image, i) => {
+                {sceneryImages.map((image, i) => {
                   return(
                     <ImageModal key={i} image={image} />
                   ); 
