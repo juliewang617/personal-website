@@ -10,7 +10,7 @@ export default function ImageModal({image}:{image: [string, string]}){
     return(
         <div>
             <div className="bg-blue2 h-48 w-48 mr-2 rounded-xl min-w-48 relative
-            cursor-pointer"
+            cursor-pointer hover:opacity-75"
             onClick={handleModal}>
                 <Image src={image[0]} alt={image[1]} layout="fill" className="object-cover rounded-xl"/>
             </div>

@@ -24,7 +24,7 @@ export default function Page(){
 
   const sceneryImages : Array<[string, string]> = [
     ["/scenery/1.png", "Cape Cod, Massachusetts"],
-    ["/scenery/2.jpg", "Outside a Whole Foods"],
+    ["/scenery/2.jpg", "Outside a Whole Foods Market"],
     ["/scenery/3.jpg", "Miami, Florida"],
     ["/scenery/4.jpg", "Brown University, Providence, Rhode Island"],
     ["/scenery/5.jpg", "Malmo, Sweden"],
@@ -45,9 +45,9 @@ export default function Page(){
                 and more! Here is a collection of photos if you would like to 
                 learn more about me. 
             </div>
-
-            <div>
-            <div className="w-full h-full flex flex-col py-3">
+          <div>
+              
+            <div className="w-full h-full flex flex-col p-5 bg-white bg-opacity-75 rounded-xl mb-5">
               <div className="margin-auto flex flex-col text-center justify-center mb-5">
                 <b className="text-blue3 mb-2">Crochet</b>
                 <p className="text-blue2">I picked up crochet during finals 
@@ -55,7 +55,7 @@ export default function Page(){
                   (plushies), and clothing accessories like bags or scarves!
                 </p>
               </div>
-              <div className="flex flex-row mb-7 overflow-scroll">
+              <div className="flex flex-row overflow-scroll">
                 {crochetImages.map((image, i) => {
                   return(
                     <ImageModal key={i} image={image} />
@@ -64,7 +64,7 @@ export default function Page(){
               </div>
             </div>
 
-            <div className="w-full h-full flex flex-col py-3">
+            <div className="w-full h-full flex flex-col p-5 bg-white bg-opacity-75 rounded-xl mb-5">
             <div className="margin-auto flex flex-col text-center justify-center mb-5">
                 <b className="text-blue3 mb-2">Artwork</b>
                 <p className="text-blue2">I&apos;ve been drawing and painting since 
@@ -73,7 +73,7 @@ export default function Page(){
                   with color! As you can tell, I really love to portray cats. 
                 </p>
               </div>
-              <div className="flex flex-row mb-7 overflow-scroll">
+              <div className="flex flex-row overflow-scroll">
                 {artworkImages.map((image, i) => {
                   return(
                     <ImageModal key={i} image={image} />
@@ -82,14 +82,14 @@ export default function Page(){
               </div>
             </div>
 
-            <div className="w-full h-full flex flex-col py-3">
+            <div className="w-full h-full flex flex-col p-5 bg-white bg-opacity-75 px-5 rounded-xl mb-24">
             <div className="margin-auto flex flex-col text-center justify-center mb-5">
                 <b className="text-blue3 mb-2">Travels</b>
                 <p className="text-blue2">Here is a collection of pretty pictures
                   I&apos;ve taken outside. 
                 </p>
               </div>
-              <div className="flex flex-row mb-24 overflow-scroll">
+              <div className="flex flex-row overflow-scroll">
                 {sceneryImages.map((image, i) => {
                   return(
                     <ImageModal key={i} image={image} />
