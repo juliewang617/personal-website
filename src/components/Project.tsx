@@ -5,7 +5,7 @@ import ImageModal from './ImageModal';
 export default function Project({title, images, desc, caption, link}:{title: string, images: Array<[string, string]>, desc: string, caption: string, link: string}){
 
     return(
-        <div className="grid justify-center bg-blue1 rounded-xl p-4 mb-10 h-auto bg-opacity-50">
+        <div className="grid justify-start bg-blue1 rounded-xl p-4 mb-10 h-auto bg-opacity-50">
 
           {/* Text */}
           <div className="w-96 w-full">
