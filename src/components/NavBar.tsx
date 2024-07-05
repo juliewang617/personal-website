@@ -18,7 +18,7 @@ export default function NavBar() {
     <nav className="bg-transparent p-5 mb-12">
       <div className="w-full flex justify-between">
       <Link href="/" className={isActive("/") + " hover:bg-blue1"}>
-      jwang.dev
+      Julie Wang
       </Link>
 
         <div className='sm:space-x-10 space-x-4'>

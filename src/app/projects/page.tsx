@@ -15,10 +15,9 @@ export default function Page(){
 
              <Project 
               title="Carpool Organizer" 
-              image="bg-carpool_thumbnail"
+              images={[["/carpool/1.png", 'InDesign wireframe of the application, with some notes on design.']]}
               caption="React, Node.js, Express, SQLite, Bootstrap, Git, InDesign"
               link=""
-              page="/projects/carpool-organizer"
               desc="In-progress full-stack carpool organizer for my 
               local robotics team with over 100 members. Implemented REST API 
               with SQLite and Express to retrieve and store data. Designed 
@@ -28,10 +27,9 @@ export default function Page(){
               
               <Project 
               title="Ez-Ed" 
-              image="bg-ez_ed_thumbnail"
+              images={[]}
               caption="Teachable Machine, React, HTML/CSS, Figma"
               link="https://github.com/juliewang617/ez-ed"
-              page="/projects/ez-ed"
               desc="Responsive website to educate about global health disparities
               regarding atopic dermatitis (eczema). Implemented a machine
               learning model using Teachable Machine to identify images of 
@@ -40,10 +38,13 @@ export default function Page(){
               
               <Project 
               title="Cattit" 
-              image="bg-cattit_thumbnail"
+              images={[["/cattit/1.png", "Splash screen"], ["/cattit/2.png", 
+                "Home page"], ["/cattit/3.png", "Individual Post"], 
+                ["/cattit/4.png", "User profile"], ["/cattit/5.png", 
+                  "Viewing another user's profile"], ["/cattit/6.png", 
+                    "Daily cat fact (using Cat Facts API)"]]}
               caption="React Native, Firebase, Firestore, Figma"
               link="https://github.com/juliewang617/Cattit"
-              page="/projects/cattit"
               desc="Social media app for cat lovers, built with React Native.
               Users can post on a forum and display images and information 
               about their cats on their profile.  
@@ -52,9 +53,8 @@ export default function Page(){
 
               <Project 
               title="Connect4 & AI Player" 
-              image="bg-connect4_thumbnail"
+              images={[["/connect4/thumbnail.png", "Screenshot of the Connect4 game"]]}
               caption="Python, Flask"
-              page="/projects/connect4"
               link="https://github.com/juliewang617/Connect4-with-AI-Player"
               desc="Connect4 web game created with Flask and Python. Includes an 
               AI player that utilizes the minimax algorithm with alpha-beta 
@@ -62,9 +62,13 @@ export default function Page(){
 
               <Project 
               title="Aliens TD" 
-              image="bg-aliens_td_thumbnail"
+              images={[["/aliens-td/1.png", "Start screen"], 
+                ["/aliens-td/2.png", "Background for the game"],
+                ["/aliens-td/3.png", "Gameplay"], 
+                ["/aliens-td/4.png", "Gameplay"], 
+                ["/aliens-td/5.png", "Gameplay"], 
+                ["/aliens-td/6.png", "Win screen"], ]}
               caption="C#, Unity"
-              page="/projects/aliens-td"
               link="https://plainyoggie.itch.io/aliens-td"
               desc="Collaborated to create an alien tower defense game in C# and 
               Unity. Implemented enemy movement and tower functionality and 
