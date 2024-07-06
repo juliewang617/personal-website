@@ -15,7 +15,7 @@ export default function NavBar() {
   }; 
 
   return (
-    <nav className="bg-transparent p-5 mb-12">
+    <nav className="bg-transparent p-5 mb-12 ">
       <div className="w-full flex sm:justify-between justify-center">
       <Link href="/" className={isActive("/") + " hover:bg-blue1 mr-4 sm:mr-0"}>
       Home
