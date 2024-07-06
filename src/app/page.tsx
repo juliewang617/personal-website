@@ -14,17 +14,17 @@ export default function Page(){
             <div className="grid lg:grid-flow-col sm:grid-flow-row justify-center lg:mt-28">
 
               {/* Image of me */}
-              <div className="-rotate-2 bg-background_me bg-cover w-96 h-96 rounded-xl shadow-solid hover:animate-[wiggle_0.75s_ease-in-out]" />
+              <div className="m-auto -rotate-2 bg-background_me bg-cover w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-xl shadow-solid hover:animate-[wiggle_0.75s_ease-in-out]" />
 
               {/* Text */}
-              <div className="md:ml-0 lg:ml-28 w-96 mt-10 lg:mt-0 lg:mb-0 mb-20">
-                <h1 className="font-rubik font-semibold text-3xl text-blue3">Julie Wang</h1>
+              <div className="md:ml-0 lg:ml-28 w-72 sm:w-96 mt-10 lg:mt-0 lg:mb-0 mb-20">
+                <h1 className="font-rubik font-semibold text-3xl text-blue3 sm:text-left text-center">Julie Wang</h1>
                 <p className="mt-5 text-blue2">Hi! My name is Julie, and I’m currently majoring in 
                   computer science at Brown University. I’m a member of the Brown CS Diversity Committee, a 
                   project manager on Full Stack @ Brown, and a TA for an intro CS class (CSCI0170). In 
                   my free time, I love to draw, crochet, and go on walks. I’m also a bit of a 
                   crazy cat lady. Feel free to reach out on any of my socials - I’m always up to connect! </p>
-                <div className="space-x-8 flex">
+                <div className="space-x-8 flex justify-center sm:justify-start">
                   <button className="mt-5 h-10 w-10 bg-github_logo bg-contain"
                   onClick={() => window.open('https://github.com/juliewang617')}/>
                   <button className="mt-5 h-10 w-10 bg-linkedin_logo bg-cover"

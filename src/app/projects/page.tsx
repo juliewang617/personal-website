@@ -52,7 +52,7 @@ export default function Page(){
               Firestore. "/> 
 
               <Project 
-              title="Connect4 & AI Player" 
+              title="Connect4 AI" 
               images={[["/connect4/thumbnail.png", "Screenshot of the Connect4 game"]]}
               caption="May 2024 | Python, Flask"
               link="https://github.com/juliewang617/Connect4-with-AI-Player"

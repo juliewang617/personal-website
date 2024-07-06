@@ -17,14 +17,15 @@ export default function ImageModal({image}:{image: [string, string]}){
 
             {open && 
             <div 
-            className="fixed inset-0 bg-blue3 bg-opacity-75 z-10" 
+            className="fixed inset-0 bg-blue3 bg-opacity-75 z-10 flex" 
             aria-hidden="true"
             onClick={handleModal}>
-                <div className="flex flex-col mt-20">
-                    <div className="bg-blue1 rounded-xl m-auto relative">
-                        <Image src={image[0]} alt={image[1]} width={0} height={0} sizes="100vw" className="w-auto h-[550px] rounded-xl"/>
+                <div className="flex flex-col mt-20 lg:mt-10 w-full">
+                    <div className="rounded-xl m-auto relative">
+                        <Image src={image[0]} alt={image[1]} width={0} height={0} sizes="100vw" className="m-auto w-5/6 h-auto max-h-[600px] lg:max-h-[650px] rounded-xl"/>
+                        <div className="text-center w-5/6 m-auto text-offwhite mt-3">{image[1]}</div>
                     </div>
-                    <div className="text-offwhite mt-5 m-auto">{image[1]}</div>
+
                 </div>
              </div>
             }
