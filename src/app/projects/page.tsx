@@ -63,10 +63,10 @@ export default function Page(){
               <Project
               title="This website!"
               images={[]}
-              caption="Mar 2024 | Next.js, React, Tailwind CSS, Figma"
+              caption="Mar 2024 | Next.js, React, TypeScript, Tailwind CSS, Figma"
               link="https://github.com/juliewang617/personal-website"
               desc="Created responsive
-              website and became familiar with Next.js, React, and 
+              website and became familiar with Next.js, TypeScript, and 
               Vercel deployment."
                />
 
