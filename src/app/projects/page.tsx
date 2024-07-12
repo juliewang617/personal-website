@@ -27,11 +27,11 @@ export default function Page(){
               
               <Project 
               title="Ez-Ed" 
-              images={[]}
-              caption="June 2024 | Teachable Machine, React, HTML/CSS, Figma"
+              images={[["/ez-ed/1.png", "homepage"]]}
+              caption="June 2024 | Teachable Machine, Tensorflow, React, HTML/CSS, Figma"
               link="https://github.com/juliewang617/ez-ed"
               desc="Responsive website to educate about global health disparities
-              regarding atopic dermatitis (eczema). Implemented a machine
+              regarding atopic dermatitis (eczema). Implemented a Tensorflow machine
               learning model using Teachable Machine to identify images of 
               eczema for users lacking access to care. Created as submission 
               for Kode with Klossy x Deloitte's Health Equity Challenge."/> 
