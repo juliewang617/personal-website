@@ -15,11 +15,13 @@ export default function Page(){
 
   const artworkImages : Array<[string, string]> = [
     ["/artwork/1.jpg", ""],
-    ["/artwork/2.jpg", ""],
     ["/artwork/3.jpg", ""],
     ["/artwork/4.jpg", ""],
     ["/artwork/5.jpg", ""],
     ["/artwork/6.jpg", ""],
+    ["/artwork/7.png", ""],
+    ["/artwork/8.png", ""],
+    ["/artwork/9.png", ""],
   ]
 
   const sceneryImages : Array<[string, string]> = [
