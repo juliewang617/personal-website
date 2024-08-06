@@ -11,7 +11,7 @@ export default function Page(){
 
           <div className="w-4/5 md:w-2/3">
           <NavigationBar />
-            <div className="justify-center">
+            <div className="justify-center" >
 
              <Project 
               title="Carpool Organizer" 
@@ -27,7 +27,10 @@ export default function Page(){
               
               <Project 
               title="Ez-Ed" 
-              images={[["/ez-ed/1.png", "homepage"]]}
+              images={[["/ez-ed/1.png", "homepage"], 
+                ["/ez-ed/2.png", "learn more page"], 
+                ["/ez-ed/3.png", "AI identifier"], 
+                ["/ez-ed/4.png", "What you can do page"]]}
               caption="June 2024 | Teachable Machine, Tensorflow, React, HTML/CSS, Figma"
               link="https://github.com/juliewang617/ez-ed"
               desc="Responsive website to educate about global health disparities

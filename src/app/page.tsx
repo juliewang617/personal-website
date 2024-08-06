@@ -2,6 +2,7 @@
 
 import Footer from "@/components/Footer";
 import NavigationBar from "@/components/NavBar"
+import Image from "next/image";
 
 export default function Page(){
   return (
@@ -14,7 +15,9 @@ export default function Page(){
             <div className="grid lg:grid-flow-col sm:grid-flow-row justify-center lg:mt-28">
 
               {/* Image of me */}
-              <div className="m-auto -rotate-2 bg-background_me bg-cover w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-xl shadow-solid hover:animate-[wiggle_0.75s_ease-in-out]" />
+              <div 
+              className="m-auto -rotate-2 bg-background_me bg-cover w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-xl shadow-solid hover:animate-[wiggle_0.75s_ease-in-out]" 
+              />
 
               {/* Text */}
               <div className="md:ml-0 lg:ml-28 w-72 sm:w-96 mt-10 lg:mt-0 lg:mb-0 mb-20">

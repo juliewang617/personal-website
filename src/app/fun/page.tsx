@@ -15,23 +15,18 @@ export default function Page(){
 
   const artworkImages : Array<[string, string]> = [
     ["/artwork/1.jpg", ""],
+    ["/artwork/2.jpg", ""],
     ["/artwork/3.jpg", ""],
-    ["/artwork/4.jpg", ""],
-    ["/artwork/5.jpg", ""],
-    ["/artwork/6.jpg", ""],
-    ["/artwork/7.png", ""],
-    ["/artwork/8.png", ""],
-    ["/artwork/9.png", ""],
+    ["/artwork/4.png", ""],
+    ["/artwork/5.png", ""],
   ]
 
   const sceneryImages : Array<[string, string]> = [
     ["/scenery/1.png", "Cape Cod, Massachusetts"],
-    ["/scenery/2.jpg", "Outside a Whole Foods Market"],
-    ["/scenery/3.jpg", "Miami, Florida"],
-    ["/scenery/4.jpg", "Brown University, Providence, Rhode Island"],
-    ["/scenery/5.jpg", "Malmo, Sweden"],
-    ["/scenery/6.jpg", "Lund, Sweden"],
-    ["/scenery/7.jpg", "Helsingborg, Sweden"],
+    ["/scenery/2.jpg", "Miami, Florida"],
+    ["/scenery/3.jpg", "Brown University, Providence, Rhode Island"],
+    ["/scenery/4.jpg", "Malmo, Sweden"],
+    ["/scenery/5.jpg", "Helsingborg, Sweden"],
   ]
 
   return (
