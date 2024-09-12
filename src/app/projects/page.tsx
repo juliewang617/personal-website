@@ -16,7 +16,7 @@ export default function Page(){
              <Project 
               title="Carpool Organizer" 
               images={[["/carpool/1.png", 'InDesign wireframe of the application, with some notes on design.']]}
-              caption="June 2024 | React, Node.js, Express, SQLite, Bootstrap, Git, InDesign"
+              caption="August 2024 | React, Node.js, Express, SQLite, Bootstrap, Git, InDesign"
               link=""
               desc="In-progress full-stack carpool organizer for my 
               local robotics team with over 100 members. Implemented REST API 
@@ -31,7 +31,7 @@ export default function Page(){
                 ["/ez-ed/2.png", "learn more page"], 
                 ["/ez-ed/3.png", "AI identifier"], 
                 ["/ez-ed/4.png", "What you can do page"]]}
-              caption="June 2024 | Teachable Machine, Tensorflow, React, HTML/CSS, Figma"
+              caption="July 2024 | Teachable Machine, Tensorflow, React, HTML/CSS, Figma"
               link="https://github.com/juliewang617/ez-ed"
               desc="Responsive website to educate about global health disparities
               regarding atopic dermatitis (eczema). Implemented a machine
@@ -46,7 +46,7 @@ export default function Page(){
                 ["/cattit/4.png", "User profile"], ["/cattit/5.png", 
                   "Viewing another user's profile"], ["/cattit/6.png", 
                     "Daily cat fact (using Cat Facts API)"]]}
-              caption="May 2024 | React Native, Firebase, Firestore, Figma"
+              caption="June 2024 | React Native, Firebase, Firestore, Figma"
               link="https://github.com/juliewang617/Cattit"
               desc="Social media app for cat lovers, built with React Native.
               Users can post on a forum and display images and information 
@@ -57,7 +57,7 @@ export default function Page(){
               <Project 
               title="Connect4 AI" 
               images={[["/connect4/thumbnail.png", "Screenshot of the Connect4 game"]]}
-              caption="May 2024 | Python, Flask"
+              caption="June 2024 | Python, Flask"
               link="https://github.com/juliewang617/Connect4-with-AI-Player"
               desc="Connect4 web game created with Flask and Python. Includes an 
               AI player that utilizes the minimax algorithm with alpha-beta 
