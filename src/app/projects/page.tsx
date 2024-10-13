@@ -12,13 +12,8 @@ export default function Page() {
           <div className="justify-center">
             <Project
               title="Carpool Organizer"
-              images={[
-                [
-                  "/carpool/1.png",
-                  "InDesign wireframe of the application, with some notes on design.",
-                ],
-              ]}
-              caption="August 2024 | React, Node.js, Express, SQLite, Bootstrap, Git, InDesign"
+              images={[["/carpool/1.png", "Carpool organizer UI"]]}
+              caption="August 2024 | React, Bootstrap, Git"
               link=""
               desc="Developed a user interface for a full-stack carpool organizer
               for my local robotics team with over 100 members under the mentorship 
