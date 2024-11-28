@@ -5,11 +5,23 @@ import { useState } from "react";
 
 export default function Page() {
   return (
-    <div className="flex flex-col w-screen justify-center bg-gradient-radial from-blue0 to-offwhite">
-      <div className="justify-center h-full flex bg-background bg-contain">
+    <div className="flex flex-col w-screen justify-center bg-background bg-cover">
+      <div className="justify-center h-full flex">
         <div className="w-4/5 md:w-2/3">
           <NavigationBar />
           <div className="justify-center">
+            <Project
+              title="Email to Calendar REST API"
+              images={[]}
+              caption="October 2024 | Node.js, Express, JavaScript"
+              link="https://github.com/juliewang617/gmail-to-calendar"
+              desc="Engineered a RESTful API that scans recent emails and 
+              intelligently parses events from their content using the Gemini LLM, 
+              then seamlessly adds them to the user's Google Calendar, eliminating 
+              the need for manual input. Optimized API efficiency with a caching mechanism to minimize API 
+              calls to Google Calendar and Gmail."
+            />
+
             <Project
               title="Carpool Organizer"
               images={[["/carpool/1.png", "Carpool organizer UI"]]}
@@ -66,16 +78,6 @@ export default function Page() {
               desc="Connect4 web game created with Flask and Python. Includes an 
               AI player that utilizes the minimax algorithm with alpha-beta 
               pruning to calculate moves."
-            />
-
-            <Project
-              title="This website!"
-              images={[]}
-              caption="Mar 2024 | Next.js, React, TypeScript, Tailwind CSS, Figma"
-              link="https://github.com/juliewang617/personal-website"
-              desc="Created responsive
-              website and became familiar with Next.js, TypeScript, and 
-              Vercel deployment."
             />
 
             <Project
