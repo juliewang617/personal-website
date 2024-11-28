@@ -38,7 +38,7 @@ export default function Project({
       </div>
 
       {/* Image Array */}
-      <div className="w-auto h-auto flex overflow-scroll mt-5">
+      <div className="w-full h-auto rounded-xl flex overflow-scroll mt-5">
         {images.map((image, i) => {
           return <ImageModal key={i} image={image} />;
         })}

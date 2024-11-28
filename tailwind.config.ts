@@ -27,7 +27,7 @@ const config: Config = {
     },
     extend: {
       backgroundImage: {
-        'background': "url('/rainbow.svg')",
+        'background': "url('/rainbow.png')",
         'background_me': "url('/me.png')", 
         'github_logo': "url('/github.svg')",
         'linkedin_logo': "url('/linkedin.svg')",
