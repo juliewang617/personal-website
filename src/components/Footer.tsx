@@ -23,7 +23,7 @@ export default function NavBar() {
         </Link>
         ·
         <Link
-          href="mailto:juliewang617@gmail.com"
+          href="mailto:julie_wang2@brown.edu"
           className="hover:opacity-75 ml-2"
         >
           Email
