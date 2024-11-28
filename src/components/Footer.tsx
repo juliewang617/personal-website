@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <div className="px-10 w-full flex bg-transparent h-12 justify-center">
       <div className="m-auto text-gray1 text-sm text-center">
-        @2024 Julie Wang |
+        @2024 Julie Wang. Developed with Next.js and Tailwind CSS |
         <Link
           href="https://github.com/juliewang617"
           className="hover:opacity-75 mr-2"

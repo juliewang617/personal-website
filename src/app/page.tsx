@@ -24,12 +24,11 @@ export default function Page() {
                 science at Brown University. I&apos;m interested in software
                 engineering and improving gender diversity in tech. On campus,
                 I&apos;ve been a member of the Brown CS Diversity Committee, a
-                project manager on Full Stack @ Brown, and a TA for intro CS and
-                DS&A. Off campus, I&apos;ve spent several years teaching CS to
-                gender minorities as part of a national nonprofit, Kode with
-                Klossy. In my free time, I love to draw, crochet, and go on
-                walks. Feel free to reach out on any of my socials - I&apos;m
-                always up to connect!{" "}
+                PM for Full Stack @ Brown, and a TA for intro CS and DS&A. Off
+                campus, I&apos;ve spent several years teaching CS to gender
+                minorities as part of Kode with Klossy. In my free time, I love
+                to draw, crochet, and go on walks. Feel free to reach out on any
+                of my socials - I&apos;m always up to connect!{" "}
               </p>
               <div className="mt-5 space-x-8 flex justify-center align-center sm:justify-start">
                 <button

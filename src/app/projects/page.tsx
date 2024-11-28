@@ -84,10 +84,7 @@ export default function Page() {
               title="Aliens TD"
               images={[
                 ["/aliens-td/1.png", "Start screen"],
-                ["/aliens-td/2.png", "Background for the game"],
-                ["/aliens-td/3.png", "Gameplay"],
                 ["/aliens-td/4.png", "Gameplay"],
-                ["/aliens-td/5.png", "Gameplay"],
                 ["/aliens-td/6.png", "Win screen"],
               ]}
               caption="Feb 2024 | C#, Unity"
